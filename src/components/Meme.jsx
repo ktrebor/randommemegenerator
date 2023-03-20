@@ -2,7 +2,6 @@ import React from "react";
 import memesData from '../resources/data/memeUrl';
 
 function Meme() {
-    //const [memeImage, setMemeImage] = React.useState("http://i.imgflip.com/1bij.jpg");
     const [meme, setMeme] = React.useState({
         topText: "",
         bottomText: "",
